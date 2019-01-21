@@ -11,22 +11,22 @@
 > gcloud container clusters list | wc -l #8
 ```
 ---
-### Cluster != Environment
+## Cluster != Environment
 
-`Computer cluster - set of loosely or tightly connected computers that work together`
+> Computer cluster - set of loosely or tightly connected computers that work together
 
-`Environment - represents the association between variable names and data types.`
+> Environment - represents the association between variable names and data types.
 ---
-### DRY Principle
+## DRY Principle
 - .circleci/config.yaml
 - Makefile
 - Dockerfile
 ---
-### All like a code
+## All like a code
 - Infrastructure as code
 - Documentation as code
 - Configuration as code
 - Diagram as code
 - Slides as code
 ---
-###
+##
