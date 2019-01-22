@@ -1,8 +1,8 @@
 # DMarket Proposals
 
 ---
-@snap[north-west span-50]
-## Why am I start working on it?
+@snap[north span-50]
+### Why am I start working on it?
 @snapend
 ```
 > k get po --no-headers=true --all-namespaces | wc -l #630
@@ -12,22 +12,22 @@
 > gcloud container clusters list | wc -l #8
 ```
 ---
-@snap[north-west span-50]
-## Cluster != Environment
+@snap[north span-50]
+### Cluster != Environment
 @snapend
 > Computer cluster - set of loosely or tightly connected computers that work together
->
+
 > Environment - represents the association between variable names and data types.
 ---
-@snap[north-west span-50]
-## DRY Principle
+@snap[north span-50]
+### DRY Principle
 @snapend
 - .circleci/config.yaml
 - Makefile
 - Dockerfile
 ---
-@snap[north-west span-50]
-## Everything a code
+@snap[north span-50]
+### Everything a code
 @snapend
 - Infrastructure as code
 - Documentation as code
@@ -35,8 +35,8 @@
 - Diagram as code
 - Slides as code
 ---
-@snap[north-west span-50]
-## Steps for delivery
+@snap[north span-50]
+### Steps for delivery
 @snapend
 - Change infrastructure configuration
 - Create pull request
@@ -46,8 +46,8 @@
 - Approved
 - Deploy to production
 ---
-@snap[north-west span-50]
-## Terraform
+@snap[north span-50]
+### Terraform
 @snapend
 
 @snap[west span-50]
