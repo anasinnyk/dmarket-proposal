@@ -1,4 +1,6 @@
 theme: beige
 
-logo: img/logo.svg
+theme-override: PITCHME.css
+
+logo: img/dm.png
 logo-postion : top-left
