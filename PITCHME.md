@@ -56,3 +56,36 @@
 @snap[east span-50]
 HashiCorp Terraform enables you to safely and predictably create, change, and improve infrastructure.
 @snapend
+---
+@snap[north span-50]
+### Atlantis
+@snapend
+@snap[west span-50]
+![](img/atlantis.png)
+@snapend
+@snap[east span-50]
+Atlantis is an application for automating Terraform via pull requests. It is deployed as a standalone application into your infrastructure
+@snapend
+---
+@snap[north span-50]
+### Vault
+@snapend
+
+@snap[west span-50]
+![](img/vault.png)
+@snapend
+@snap[east span-50]
+Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data
+@snapend
+---
+@snap[north span-50]
+### Argo
+@snapend
+@snap[west span-50]
+![](img/argo.png)
+@snapend
+@snap[east span-50]
+Open source Kubernetes native workflows, events, CI and CD
+@snapend
+---
+# Demo
