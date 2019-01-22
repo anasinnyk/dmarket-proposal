@@ -1,3 +1,4 @@
 img {
-  border: 0px;
+  border: 0px !override;
+  box-shadow: none !override;
 }
