@@ -43,11 +43,11 @@
 ---
 @snap[north span-50]
 ## Terraform
-@spanend
+@snapend
 
 @snap[west span-50]
 ![](img/terraform.png)
-@spanend
+@snapend
 @snap[east span-50]
 HashiCorp Terraform enables you to safely and predictably create, change, and improve infrastructure.
 @snapend
