@@ -1,8 +1,9 @@
 # DMarket Proposals
 
 ---
-@title[Why am I start working on it?]
-
+@snap[north span-50]
+### Why am I start working on it?
+@snapend
 ```
 > k get po --no-headers=true --all-namespaces | wc -l #630
 
@@ -11,25 +12,32 @@
 > gcloud container clusters list | wc -l #8
 ```
 ---
-@title[Cluster != Environment]
-
+@snap[north span-50]
+## Cluster != Environment
+@snapend
 > Computer cluster - set of loosely or tightly connected computers that work together
 
 > Environment - represents the association between variable names and data types.
 ---
-@title[DRY Principle]
+@snap[north span-50]
+## DRY Principle
+@snapend
 - .circleci/config.yaml
 - Makefile
 - Dockerfile
 ---
-@title[Everything a code]
+@snap[north span-50]
+## Everything a code
+@snapend
 - Infrastructure as code
 - Documentation as code
 - Configuration as code
 - Diagram as code
 - Slides as code
 ---
-@title[Steps for delivery]
+@snap[north span-50]
+## Steps for delivery
+@snapend
 - Change infrastructure configuration
 - Create pull request
 - Apply configuration on test environment
@@ -38,8 +46,9 @@
 - Approved
 - Deploy to production
 ---
-@title[Terraform]
-
+@snap[north span-50]
+## Terraform
+@snapend
 @snap[west span-50]
 ![](img/terraform.pmg)
 @snapend
