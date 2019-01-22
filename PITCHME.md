@@ -41,11 +41,13 @@
 - Approved
 - Deploy to production
 ---
+@snap[north span-50]
 ## Terraform
+@spanend
 
 @snap[west span-50]
 ![](img/terraform.png)
-@snapend
+@spanend
 @snap[east span-50]
 HashiCorp Terraform enables you to safely and predictably create, change, and improve infrastructure.
 @snapend
