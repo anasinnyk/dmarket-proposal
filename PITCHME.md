@@ -20,11 +20,11 @@
 > Environment - represents the association between variable names and data types.
 ---
 @snap[north span-50]
-### DRY Principle
+### Principle
 @snapend
-- .circleci/config.yaml
-- Makefile
-- Dockerfile
+- DRY
+- KISS
+- YAGNI
 ---
 @snap[north span-50]
 ### Everything a code
