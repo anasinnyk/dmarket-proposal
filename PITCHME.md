@@ -48,6 +48,7 @@ HashiCorp Terraform enables you to safely and predictably create, change, and im
 - Google cloud configuration
 - Kubernetes configuration
 - Helm packages installations
+---
 @snap[north span-50]
 ### Atlantis
 @snapend
