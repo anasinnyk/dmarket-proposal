@@ -4,6 +4,7 @@
 @snap[north span-50]
 ### Why am I start working on it?
 @snapend
+@snap[center]
 ```
 > k get po --no-headers=true --all-namespaces | wc -l #630
 
@@ -22,11 +23,13 @@
 @snap[north span-50]
 ### Everything a code
 @snapend
+@ul[spaced]
 - Infrastructure as code
 - Documentation as code
 - Configuration as code
 - Diagram as code
 - Slides as code
+@ulend
 ---
 @snap[north span-50]
 ### Terraform
@@ -42,12 +45,14 @@ HashiCorp Terraform enables you to safely and predictably create, change, and im
 @snap[north span-50]
 ### Possibilities
 @snapend
+@ul[spaced]
 - Modify cloudflare Configuration
 - Added github webhook
 - Manage access to external services github, cloudflare, vault
 - Google cloud configuration
 - Kubernetes configuration
 - Helm packages installations
+@ulend
 ---
 @snap[north span-50]
 ### Atlantis
@@ -62,6 +67,7 @@ Atlantis is an application for automating Terraform via pull requests. It is dep
 @snap[north span-50]
 ### Steps for delivery
 @snapend
+@ul[spaced]
 - Change infrastructure as code
 - Create pull request
 - Apply configuration on test environment
@@ -69,6 +75,7 @@ Atlantis is an application for automating Terraform via pull requests. It is dep
 - Verified
 - Approved
 - Deploy to production
+@ulend
 ---
 @snap[north span-50]
 ### Vault
@@ -84,9 +91,11 @@ Secure, store and tightly control access to tokens, passwords, certificates, enc
 @snap[north span-50]
 ### Possibilities
 @snapend
+@ul[spaced]
 - Remove secrets from code
 - Provide secrets like environment variable to different application (BanzaiCloud)
 - Manage pool secret access
+@ulend
 ---
 @snap[north span-50]
 ### Argo
@@ -101,8 +110,10 @@ Open source Kubernetes native workflows, events, CI and CD
 @snap[north span-50]
 ### Possibilities
 @snapend
+@ul[spaced]
 - Handle any webhook (GitHub, DockerHub, Slack)
 - Apply the same workflows to different projects
 - Create different workflows pool
+@ulend
 ---
 # Demo
